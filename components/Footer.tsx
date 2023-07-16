@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { footerLinks } from '@/constans';
+import { footerLinks } from '@/constants';
 
 const Footer = () => {
     return (

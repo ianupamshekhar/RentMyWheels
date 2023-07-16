@@ -3,7 +3,7 @@ import React, { useState, Fragment } from 'react';
 import Image from 'next/image';
 import { Combobox, Transition } from '@headlessui/react';
 
-import { manufacturers } from '@/constans';
+import { manufacturers } from '@/constants';
 import { SearchManufacturerProps } from '@/types';
 
 const SearchManufacturer = ({ selected, setSelected }: SearchManufacturerProps) => {
